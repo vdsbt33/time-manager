@@ -1,0 +1,19 @@
+{
+  "name": "time-manager-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdsbt33/time-manager.git"
+  },
+  "author": "Vinícius de Souza",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vdsbt33/time-manager/issues"
+  },
+  "homepage": "https://github.com/vdsbt33/time-manager#readme",
+  "description": ""
+}
