@@ -1,8 +1,10 @@
 {
   "name": "time-manager-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
+    "build": "tsc --outDir dist",
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,16 @@
     "url": "https://github.com/vdsbt33/time-manager/issues"
   },
   "homepage": "https://github.com/vdsbt33/time-manager#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.12",
+    "fastify": "^4.28.1",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
 }
